@@ -1,29 +1,38 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Student Task Manager</title>
-
   <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
+  <div class="container">
+    <h1>Student Task Manager</h1>
 
-  <h1>Student Task Manager</h1>
+    <!-- Task Input Form -->
+    <div class="task-form">
+      <input type="text" id="task-title-input" placeholder="Task Title" required>
+      <textarea id="task-desc-input" placeholder="Task Description" rows="2"></textarea>
+      <button id="add-task-btn">Add Task</button>
+    </div>
 
-  <p>Welcome! Tasks will appear here.</p>
+    <!-- Task List Container with Completed Status -->
+    <div class="task-container">
+      <ul id="task-list">
+        <!-- Example Task Item featuring the completion checkbox -->
+        <li class="task-item">
+          <input type="checkbox" class="task-checkbox" aria-label="Mark task as completed">
+          <div class="task-details">
+            <span class="task-title">Sample Task</span>
+            <span class="task-desc">This is a description of the task.</span>
+          </div>
+          <button class="delete-btn">Delete</button>
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <script src="script.js"></script>
-
 </body>
-
-</html>
-
 </html>

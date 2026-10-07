@@ -1,5 +1,7 @@
 body { font-family: Arial, sans-serif; margin: 20px; }
 
+<<<<<<< HEAD
+=======
 * { box-sizing: border-box; }
 body { font-family: Arial, sans-serif; background: #f4f6f8; max-width: 600px; margin: 0 auto; padding: 20px; }
 h1 { text-align: center; color: #2c3e50; }
@@ -13,3 +15,4 @@ button:hover { background: #2980b9; }
 .task-card .actions { display: flex; gap: 8px; margin-top: 8px; }
 .task-card .delete-btn { background: #e74c3c; }
 @media (max-width: 480px) { body { padding: 10px; } }
+>>>>>>> 591dc2360c6efe59fb73d1819abd34d5e7946bac
